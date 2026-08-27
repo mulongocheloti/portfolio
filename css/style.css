@@ -663,6 +663,18 @@ body.offcanvas {
     border-bottom: 2px solid #a84cb8; }
     .services.color-4 .icon2 i {
       color: #a84cb8; }
+
+/* Workflow row (Ingest/Transform/Store/Visualize): force a 2x2 grid between
+   400px and 1000px. Below 400px it stays single-column (Bootstrap's default
+   for col-md-3 with no width applied yet); above 1000px Bootstrap's own
+   992px breakpoint already gives the natural 4-across layout. The extra
+   ".colorlib-about" in the selector deliberately outweighs Bootstrap's plain
+   ".col-md-3" specificity, so this correctly wins in the 992-1000px overlap. */
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+  .colorlib-about .col-md-3 {
+    width: 50%;
+    float: left; }
+}
   .services.color-5 {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
