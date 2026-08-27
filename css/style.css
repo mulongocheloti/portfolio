@@ -84,7 +84,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     #colorlib-aside {
       width: 300px;
       -moz-transform: translateX(-300px);
@@ -228,7 +228,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     #colorlib-main {
       width: 100%;
       padding: 0 1em; } }
@@ -1483,7 +1483,7 @@ body.offcanvas {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     .colorlib-nav-toggle {
       opacity: 1;
       visibility: visible; } }
